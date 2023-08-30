@@ -48,7 +48,7 @@ class Timer {
         }
         this.records = [];
         this.sorted = [];
-        this.limit = [4, 0, 0];
+        this.limit = [3, 0, 0];
         this.reset();
         this.bestlap.innerText = '';
         while (this.results.lastChild) {
